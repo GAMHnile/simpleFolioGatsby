@@ -28,30 +28,32 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'smartbrains',
+    title: 'Smartbrains',
+    info:
+      'This app uses the Clarifai computer vision api to detect faces in photos. It has signup and login feature.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://gamhnile-smart-brain.herokuapp.com/',
+    repo: 'https://github.com/GAMHnile/smart-brain-front', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'robofriends',
+    title: 'Robofriends',
+    info: 'A simple web app that displays my robot friends with a live search feature.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://gamhnile.github.io/Robofriends/',
+    repo: 'https://github.com/GAMHnile/Robofriends', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'crowncl',
+    title: 'Crown clothing',
+    info:
+      'A full fledge ecommerce website built with react, firebase, redux. A progressive web app so can scale well.',
+    info2: 'It is still in development',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/GAMHnile/smart-brain-front', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +61,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'georgeamhuweh@gmail.com',
 };
 
 // FOOTER DATA
