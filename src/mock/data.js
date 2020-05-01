@@ -2,9 +2,9 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'George Uweh | Web developer', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: "Welcome to George Uweh's portfolio website.", // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -18,9 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'I am a web developer with a focus  on front end development. I enjoy creating scalable applications.',
+  paragraphTwo:
+    "I love learning and i'm  always adding new skills and improving the quality of my products.",
+  paragraphThree: ' ',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -87,5 +89,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
