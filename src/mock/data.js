@@ -54,7 +54,7 @@ export const projectsData = [
     info:
       'A full fledge ecommerce website built with react, firebase, redux. A progressive web app so can scale well.',
     info2: 'It is still in development',
-    url: '',
+    url: 'https://crwn-gamh-live.herokuapp.com/',
     repo: 'https://github.com/GAMHnile/smart-brain-front', // if no repo, the button will not show up
   },
 ];
