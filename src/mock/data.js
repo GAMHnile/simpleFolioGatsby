@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'George',
+  name: 'George Uweh',
   subtitle: "I'm a web developer",
   cta: '',
 };
@@ -30,6 +30,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
+    img: 'crowncl',
+    title: 'Crown clothing',
+    info:
+      'A full fledge ecommerce website built with react, firebase, redux. A progressive web app so can scale well.',
+    info2: 'It is still in development',
+    url: 'https://crwn-gamh-live.herokuapp.com/',
+    repo: 'https://github.com/GAMHnile/Crown-clothing', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'smartbrains',
     title: 'Smartbrains',
     info:
@@ -46,16 +56,6 @@ export const projectsData = [
     info2: '',
     url: 'https://gamhnile.github.io/Robofriends/',
     repo: 'https://github.com/GAMHnile/Robofriends', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'crowncl',
-    title: 'Crown clothing',
-    info:
-      'A full fledge ecommerce website built with react, firebase, redux. A progressive web app so can scale well.',
-    info2: 'It is still in development',
-    url: 'https://crwn-gamh-live.herokuapp.com/',
-    repo: 'https://github.com/GAMHnile/Crown-clothing', // if no repo, the button will not show up
   },
 ];
 
