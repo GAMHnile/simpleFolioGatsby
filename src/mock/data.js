@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'George Uweh',
-  subtitle: "I'm a web developer",
+  subtitle: "I'm a web and mobile app developer",
   cta: '',
 };
 
@@ -19,10 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I am a web developer with a focus  on front end development. I enjoy creating scalable applications.',
+    'I am a full stack web and hybrid mobile app developer. I enjoy creating applications that scale.',
   paragraphTwo:
-    "I love learning and i'm  always adding new skills and improving the quality of my products.",
-  paragraphThree: ' ',
+    'Some of the tools I use include: React, nextjs, gatsbyjs, Ionic framework, capacitorjs, nodejs, express, socketIO, postgreSQL, mongodb, firebase, e.t.c.',
+  paragraphThree:
+    "I love learning and I'm  always adding new skills and improving the quality of my products. ",
   resume: '', // if no resume, the button will not show up
 };
 
@@ -30,11 +31,22 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
+    img: 'Coursegoals',
+    title: 'Course Goals',
+    info:
+      "A mobile app for setting and keeping track of goals. It's built using Ionic framework, react, capacitorjs. It features google drive integration for cloud backup of data.",
+    info2: 'It is live on the google play store.',
+    url: 'https://play.google.com/store/apps/details?id=netlifyapp.kodeworld.coursegoals',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'crowncl',
     title: 'Crown clothing',
     info:
-      'A full fledge ecommerce website built with react, firebase, redux. A progressive web app so can scale well.',
-    info2: 'It is still in development',
+      'A full fledge ecommerce website built with react, firebase, redux with redux-sagas to handle asynchronous actions. It is also progressive web app.',
+    info2:
+      'It is built following proven best practices with redux and redux sagas so can scale well',
     url: 'https://crwn-gamh-live.herokuapp.com/',
     repo: 'https://github.com/GAMHnile/Crown-clothing', // if no repo, the button will not show up
   },
@@ -44,7 +56,8 @@ export const projectsData = [
     title: 'Smartbrains',
     info:
       'This app uses the Clarifai computer vision api to detect faces in photos. It has signup and login feature.',
-    info2: '',
+    info2:
+      'It is built on the frontend using react and create react app framework. The backend using nodejs, express, postgreSQL, and others',
     url: 'http://gamhnile-smart-brain.herokuapp.com/',
     repo: 'https://github.com/GAMHnile/smart-brain-front', // if no repo, the button will not show up
   },
@@ -52,10 +65,10 @@ export const projectsData = [
     id: uuidv1(),
     img: 'robofriends',
     title: 'Robofriends',
-    info: 'A simple web app that displays my robot friends with a live search feature.',
-    info2: '',
-    url: 'https://gamhnile.github.io/Robofriends/',
-    repo: 'https://github.com/GAMHnile/Robofriends', // if no repo, the button will not show up
+    info: 'A web app that displays my robot friends with a live search feature.',
+    info2: ' It is a serverside rendered app built using nextjs',
+    url: 'https://robofriends-ssr-tau.vercel.app/',
+    repo: 'https://github.com/GAMHnile/robofriends-ssr', // if no repo, the button will not show up
   },
 ];
 
