@@ -2,7 +2,7 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'George Uweh | Web developer', // e.g: 'Name | Developer'
+  title: 'George Uweh | Full stack developer', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: "Welcome to George Uweh's portfolio website.", // e.g: Welcome to my website
 };
@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I am a full stack web and hybrid mobile app developer. I enjoy creating applications that scale.',
+    'I am a full stack web and mobile app developer. I enjoy creating applications that scale.',
   paragraphTwo:
-    'Some of the tools I use include: React, nextjs, gatsbyjs, Ionic framework, capacitorjs, nodejs, express, socketIO, postgreSQL, mongodb, firebase, e.t.c.',
+    'Some of the tools I use include: React, react native, nextjs, gatsbyjs, Ionic framework, capacitorjs, nodejs, express, socketIO, postgreSQL, mongodb, firebase, e.t.c.',
   paragraphThree:
     "I love learning and I'm  always adding new skills and improving the quality of my products. ",
   resume: '', // if no resume, the button will not show up
@@ -31,12 +31,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'Coursegoals',
-    title: 'Course Goals',
+    img: 'biumobileapp',
+    title: 'BIU App',
     info:
-      "A mobile app for setting and keeping track of goals. It's built using Ionic framework, react, capacitorjs. It features google drive integration for cloud backup of data.",
+      'Official mobile app of Benson Idahosa University (BIU). Built using technologies like react native, nodejs, sql, and mongodb e.t.c.',
     info2: 'It is live on the google play store.',
-    url: 'https://play.google.com/store/apps/details?id=netlifyapp.kodeworld.coursegoals',
+    url: 'https://play.google.com/store/apps/details?id=edu.biu.mobileapp&hl=en_US&gl=US',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -52,6 +52,15 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
+    img: 'biunotification',
+    title: 'Student notification System',
+    info: 'A web application for composing and sending push notifications to the BIU mobile app.',
+    info2: 'It is built with technologies like React, nodejs, mongoDB, e.t.c.',
+    url: 'https://student-experience-api.herokuapp.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'smartbrains',
     title: 'Smartbrains',
     info:
@@ -60,15 +69,6 @@ export const projectsData = [
       'It is built on the frontend using react and create react app framework. The backend using nodejs, express, postgreSQL, and others',
     url: 'http://gamhnile-smart-brain.herokuapp.com/',
     repo: 'https://github.com/GAMHnile/smart-brain-front', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'robofriends',
-    title: 'Robofriends',
-    info: 'A web app that displays my robot friends with a live search feature.',
-    info2: ' It is a serverside rendered app built using nextjs',
-    url: 'https://robofriends-ssr-tau.vercel.app/',
-    repo: 'https://github.com/GAMHnile/robofriends-ssr', // if no repo, the button will not show up
   },
 ];
 
