@@ -56,7 +56,7 @@ export const projectsData = [
     title: 'Student notification System',
     info: 'A web application for composing and sending push notifications to the BIU mobile app.',
     info2: 'It is built with technologies like React, nodejs, mongoDB, e.t.c.',
-    url: 'https://student-experience-api.herokuapp.com/',
+    url: 'https://student-experience-api-af37944f3527.herokuapp.com',
     repo: '', // if no repo, the button will not show up
   },
   {
