@@ -47,7 +47,7 @@ export const projectsData = [
       'A full fledge ecommerce website built with react, firebase, redux with redux-sagas to handle asynchronous actions. It is also progressive web app.',
     info2:
       'It is built following proven best practices with redux and redux sagas so can scale well',
-    url: 'https://crwn-gamh-live.herokuapp.com/',
+    url: 'https://crwn-gamh-live-e1315b1b80c0.herokuapp.com',
     repo: 'https://github.com/GAMHnile/Crown-clothing', // if no repo, the button will not show up
   },
   {
@@ -67,7 +67,7 @@ export const projectsData = [
       'This app uses the Clarifai computer vision api to detect faces in photos. It has signup and login feature.',
     info2:
       'It is built on the frontend using react and create react app framework. The backend using nodejs, express, postgreSQL, and others',
-    url: 'http://gamhnile-smart-brain.herokuapp.com/',
+    url: 'https://gamhnile-smart-brain-5a00584bf477.herokuapp.com',
     repo: 'https://github.com/GAMHnile/smart-brain-front', // if no repo, the button will not show up
   },
 ];
