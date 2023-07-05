@@ -67,8 +67,8 @@ export const projectsData = [
       'This app uses the Clarifai computer vision api to detect faces in photos. It has signup and login feature.',
     info2:
       'It is built on the frontend using react and create react app framework. The backend using nodejs, express, postgreSQL, and others',
-    url: 'https://gamhnile-smart-brain-5a00584bf477.herokuapp.com',
-    repo: 'https://github.com/GAMHnile/smart-brain-front', // if no repo, the button will not show up
+    url: 'https://smart-brain-api-gamh-c3846073ca29.herokuapp.com',
+    repo: 'https://github.com/GAMHnile/smart-brain-api', // if no repo, the button will not show up
   },
 ];
 
